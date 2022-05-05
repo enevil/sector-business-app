@@ -1,0 +1,28 @@
+.th {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  gap: 40px;
+}
+
+.th svg {
+  transition: all 0.2s ease-in;
+}
+
+.active {
+  color: var(--primary);
+}
+
+.th:hover {
+  color: var(--primary);
+}
+
+.active svg {
+  fill: var(--primary);
+  transform: rotate(90deg);
+}
+
+.th:hover svg {
+  fill: var(--primary);
+}

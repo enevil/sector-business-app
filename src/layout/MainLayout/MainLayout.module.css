@@ -1,0 +1,10 @@
+.container {
+  max-width: 1200px;
+  height: 100vh;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.searchbar {
+  margin-bottom: 15px;
+}

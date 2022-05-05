@@ -1,0 +1,10 @@
+.container {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.tr {
+  display: grid;
+  grid-template-columns: auto 1fr 2fr;
+  justify-items: center;
+}
